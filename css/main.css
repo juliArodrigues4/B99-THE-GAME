@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 3;
+    margin: 2% 0;
+}
+
+.logo {
+    justify-self: center;
+}
+
+.container-home {
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    display: grid;
+    grid-template-rows: 2;
+}
+
+.botoes-opcoes {
+    display: flex;
+    gap: 1%;
+}
+
+.aligned {
+    justify-self: center;
+}
+
+.ajuda {
+    display: grid;
+}
+
+.ajuda img{
+    width: 60%;
+    height: auto;
+    justify-self: center;
+
+}
+
+.dados {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: rgb(240, 240, 21);
+    margin-bottom: 3%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados input {
+    width: 100%;
+    height: 20px;
+}
+
+.radio-btn {
+    display: flex;
+    gap: 2%;
+}

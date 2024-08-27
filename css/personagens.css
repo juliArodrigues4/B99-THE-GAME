@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Oswald:wght@200..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+}
+
+.jakes {
+    width: 100%;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 9;
+}
+
+.personagens{
+    display: flex;
+    margin: 1% 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(240, 240, 17);
+}
+
+.personagens img {
+    width: auto;
+    height: 280px;
+    position: relative;
+    left: 0;
+}
+
+.sinopse {
+    display: block;
+    width: 80%;
+    margin: 1% 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sinopse .nome{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.7em;
+    margin-bottom: 25px;
+    color: rgb(39, 39, 39);
+    font-family: "New Amsterdam", sans-serif;
+}
+
+.sinopse p{
+    font-size: 20px;
+    color: rgb(24, 24, 24);
+    font-family: "Oswald", sans-serif;
+}
